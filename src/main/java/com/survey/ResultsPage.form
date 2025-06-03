@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="441" max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="429" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="totalSurveysLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="averageAgeLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="youngestLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="oldestLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tvAvgLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="eatOutAvgLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="radioAvgLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="moviesAvgLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="papWorsPercentLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="pastaPercentLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="pizzaPercentLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="37" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="totalSurveysLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="averageAgeLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="oldestLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="youngestLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Component id="pizzaPercentLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="pastaPercentLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="papWorsPercentLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Component id="moviesAvgLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="radioAvgLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="eatOutAvgLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="tvAvgLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="70" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Survey Results"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalSurveysLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total number of surveys:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="averageAgeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Average age:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="youngestLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Youngest person who participated in survey:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="oldestLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Oldest person who participated in survey:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="moviesAvgLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="People who like to watch movies:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="papWorsPercentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Percentage of people who like Pap and Wors:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pastaPercentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Percentage of people who like Pasta:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pizzaPercentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Percentage of people who like Pizza:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tvAvgLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="People who like to watch TV:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eatOutAvgLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="People who like to eat out:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="radioAvgLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="People who like to listen to radio:"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
