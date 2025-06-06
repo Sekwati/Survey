@@ -46,26 +46,26 @@ public class SurveyForm extends javax.swing.JFrame {
         
         fillOutSurveyLabel.addMouseListener(new java.awt.event.MouseAdapter() {
         public void mouseClicked(java.awt.event.MouseEvent evt) {
-        // For now, maybe just show a message
+        //Show message
         JOptionPane.showMessageDialog(SurveyForm.this, "You're already on the survey page!");
         }
     });
 
         viewResultsLabel.addMouseListener(new java.awt.event.MouseAdapter() {
         public void mouseClicked(java.awt.event.MouseEvent evt) {
-        // Open the Results Page (we'll build this next)
-        ResultsPage resultsPage = new ResultsPage(); // We'll make this class next
+        //Open the Results Page
+        ResultsPage resultsPage = new ResultsPage();
         resultsPage.setVisible(true);
         }
     });
 
 
-        // Set layout for ratingsContainer
+        //Layout for ratingsContainer
         int rows = questions.length + 1; // +1 for header
         int cols = columns.length + 1;   // +1 for question text
         ratingsContainer.setLayout(new GridLayout(rows, cols));
         
-        // Add header row (empty cell + column headers)
+        //Header row (empty cell + column headers)
         ratingsContainer.add(new JLabel(""));
         for (String col : columns) {
             JLabel header = new JLabel(col, SwingConstants.CENTER);
@@ -75,7 +75,7 @@ public class SurveyForm extends javax.swing.JFrame {
             ratingsContainer.add(header);
         }
         
-        // Add question rows with radio buttons
+        //Question rows with radio buttons
         ButtonGroup[] groups = new ButtonGroup[questions.length];
 
         buttons = new JRadioButton[questions.length][columns.length];

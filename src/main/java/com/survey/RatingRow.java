@@ -21,7 +21,7 @@ public class RatingRow extends JPanel {
         this.setLayout(new FlowLayout(FlowLayout.LEFT));
         this.add(new JLabel(question));
         
-        //Create radio button group of 5
+        //Radio button group of 5
         group = new ButtonGroup();
         options = new JRadioButton[5];
 
@@ -32,14 +32,14 @@ public class RatingRow extends JPanel {
         }
     }
     
-    //returns selected rating
+    //Returns selected rating
     public int getSelectedRating() {
         for (int i = 0; i < 5; i++) {
             if (options[i].isSelected()) {
                 return i + 1;
             }
         }
-        return -1;  // No selection made
+        return -1;  //No selection made
     }
 
     public String getQuestion() {
