@@ -3,7 +3,7 @@ This is a Java-based desktop survey application built using **Swing**, with a fo
 
 ## Features
 - Collects personal information: full name, email, date of birth, contact number
-- Allows users to select favorite food preferences
+- Allows users to select favourite food preferences
 - Includes a dynamic agreement-scale survey (1–5)
 - Ensures only one selection per survey item
 - Validates all input fields before submission
@@ -27,5 +27,10 @@ This is a Java-based desktop survey application built using **Swing**, with a fo
 - Java 17 or newer installed
 ### 2. Run the App
 Navigate to the project directory in terminal and run:
-```bash
 java -jar target/Survey-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+## Survey Form UI
+![Survey Form](screenshots/Fill%20Out.jpg)
+
+## Results Page
+![Results Page](screenshots/Results.jpg)
